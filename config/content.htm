@@ -2,12 +2,15 @@
 <p>2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p>
 <h2>CMSimfly 網站</h2>
 <p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p>
-<h1>測試頁面</h1><p><img src="/images/chrome_2018-09-14_11-40-42.png" width="493" height="478" alt=""></p><h2>reveal 投影片</h2>
-<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p><h2>pelican 網誌</h2>
+<p></p>
+<h2>reveal 投影片</h2>
+<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p>
+<h2>pelican 網誌</h2>
 <p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo&nbsp;</p>
 <p>各分組必須自行更改&nbsp;@edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
 <p>更改 @edit publishconf.py 中的 SITEURL</p>
-<p></p><h1>期中作業操作</h1>
+<p></p>
+<h1>期中作業操作</h1>
 <p>以下的解說圖片, 是以 ShareX 中的 Task settings 下的 Upload 下的 File name 設定, 將 Name pattern for window capture, 從&nbsp;%pn_%y-%mo-%d_%h-%mi-%s 改為&nbsp;p37_%h-%mi-%s, 表示此一系列的取圖檔, 將會以 p37 加上取圖時間做為檔名, 以資辨識.</p>
 <p>之後, 再利用 CMSimfly 中的 Image Upload 功能, 一次上傳多個圖檔, 放入 images 目錄中引用.</p>
 <p>當使用者開啟 <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit">Zoomit</a> 與 <a href="https://getsharex.com/">ShareX</a> 之後, 可以交互利用 Ctrl + 1 以 Zoomit 的功能放大螢幕, 選擇畫面, 以畫筆標示重點, 然後再結合 ShareX 的 Ctrl + PrintScreen 選擇所要取圖的範圍後, 即可逐一在電腦操作過程中, 取得所需要的畫面圖檔, 然後再放入 CMSimfly 內容管理頁面中使用.</p>
@@ -60,37 +63,14 @@ img {
 <p>由於 CMSimfly 動態系統中, 以 h1, h2, h3 等三個超文件標註作為各頁面標題, 且循序排列各 h1, h2 與 h3 標題內容, 因此使用者可以在上一個頁面 (可能是 h1, h2 或 h3 頁面) 超文件最後面加入標題, 或者在下一頁標題的最前方加入頁面標題, 下列畫面選擇在組員操作影片上方新增一個 h1 標題頁面, 標題為"期中作業操作".</p>
 <p><img src="/images/p37_09-35-01.png" width="418" height="445" alt=""></p>
 <p><img src="/images/p37_09-35-51.png" width="600" height="353" alt=""></p>
-<p></p><h1>組員操作影片</h1>
-<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p><h2>Week1</h2>
-<p><span>國立虎尾科技大學機械設計工程系計算機程式 - 一乙第八週第三部分, 說明如何利用 Eric6 IDE 建立所需的 calculator 計算機程式對話表單. 過程中主要學習如何啟動 Eric6, 如何建立 Eric6 專案, 如何切換 Sources tab 與 Form tab, 如何在進入 Qt Designer 後利用格點布局, 建立按鈕與 Line Edit 部件.</span></p>
-<p><span><img src="/images/chrome_2018-09-14_11-45-29.png" width="300" height="242" alt=""></span></p>
-<p><span>國立虎尾科技大學機械設計工程系計算機程式 - 一乙第八週第三部分, 說明如何利用 Eric6 IDE 建立所需的 calculator 計算機程式對話表單. 過程中主要學習如何啟動 Eric6, 如何建立 Eric6 專案, 如何切換 Sources tab 與 Form tab, 如何在進入 Qt Designer 後利用格點布局, 建立按鈕與 Line Edit 部件.</span></p>
-<p><span><img src="/images/chrome_2018-09-14_11-40-42.png" width="600" height="582" alt=""></span></p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import os
-import subprocess
-import threading
-import http.server, ssl
-
-def domake():
-    # build directory
-    #os.chdir("./../")
-    server_address = ('localhost', 8444)
-    httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
-    httpd.socket = ssl.wrap_socket(httpd.socket,
-                                   server_side=True,
-                                   certfile='localhost.crt',
-                                   keyfile='localhost.key',
-                                   ssl_version=ssl.PROTOCOL_TLSv1)
-    print(os.getcwd())
-    print("8444 https server started")
-    httpd.serve_forever()
-
-# 利用執行緒執行 https 伺服器
-make = threading.Thread(target=domake)
-make.start()</pre>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/g4ksXq7sQ4M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p><h1>Python 手冊</h1>
+<p></p>
+<h1>組員操作影片</h1>
+<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
+<h2>Week1</h2><p>操作內容</p><p>1.先登入自己github帳號,新增資料(學號.github.io)</p><p>2.到圖片上的網站,git clone資料到自己的usb<img src="/images/chrome_2018-10-07_19-48-34.png" width="555" height="37" alt=""></p><p><img src="/images/cmd_2018-10-07_19-51-35.png" width="601" height="31" alt=""></p><p>3.到自己新增的資料網站,git clone到自己的usb</p><p><img src="/images/cmd_2018-10-07_20-00-54.png" width="698" height="36" alt=""></p><p>4.再將mdecourse/2018fall資料夾內的檔案複製到自己的資料夾(除了.git&nbsp; readme不取代)</p><p><img src="/images/2018-10-07_20-04-16.png" width="549" height="391" alt=""></p><p>5.複製完後在自己的資料夾內輸入python wsgi.py</p><p><img src="/images/cmd_2018-10-07_20-08-25.png" width="756" height="213" alt=""></p><p>6.接著到瀏覽器上輸入https:localhost:8443,進去後先login (admin)</p><p>7.打入學號到標題內</p><p><img src="/images/chrome_2018-10-07_20-19-39.png" width="542" height="40" alt=""></p><p>8.大致上處理好後利用generate_pages進行動態分頁轉至靜態分頁</p><p>9.開啟自己的Scite的白框,開啟http-server.py</p><p><img src="/images/Sc1_2018-10-07_20-23-45.png" width="543" height="426" alt=""></p><p>10.再到瀏覽器上打入https:localhost:8444</p><p>11.確認無誤回到黑框打入git add .&nbsp; git commit -m&nbsp; &nbsp;git push 等指令上傳至遠端</p><p></p><h1>Python 手冊</h1>
 <p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
-<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p><h1>OnShape 手冊</h1>
+<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
+<h1>OnShape 手冊</h1>
 <p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p>
-<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p><h1>Fusion 360</h1>
+<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p>
+<h1>Fusion 360</h1>
 <p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>
