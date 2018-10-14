@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623217/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623217/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623217/blog/</id><updated>2018-09-10T11:00:00+08:00</updated><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40623217/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2018-10-07T21:00:00+08:00</updated><entry><title>第四周</title><link href="./2018-Fall-Project-Blog-w4.html" rel="alternate"></link><published>2018-10-07T21:00:00+08:00</published><updated>2018-10-07T21:00:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-07:./2018-Fall-Project-Blog-w4.html</id><summary type="html">&lt;p&gt;介紹OnShape功能&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;介紹OnShape功能&lt;/p&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;課程內容&lt;/p&gt;
+&lt;p&gt;與一般的繪圖軟體很像 ,能夠在雲端上傳遞給其他人看,&lt;/p&gt;
+&lt;p&gt;也能在上面作畫,當沒有繪圖軟體可使用時能暫時使用的工具,&lt;/p&gt;
+&lt;p&gt;也能在這工具上觀看他人的圖檔,算是很方便的瀏覽工具.&lt;/p&gt;
+&lt;p&gt;ex:solidworks , inventor等3D繪圖軟體相似&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第二周</title><link href="./2018-Fall-Project-Blog-w2.html" rel="alternate"></link><published>2018-10-07T20:30:00+08:00</published><updated>2018-10-07T20:30:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-07:./2018-Fall-Project-Blog-w2.html</id><summary type="html">&lt;p&gt;領取本學期個人作業&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;領取本學期個人作業&lt;/p&gt;
+
+
+&lt;h2&gt;操作內容&lt;/h2&gt;
+&lt;p&gt;1.先到mde.tw內的issue內領取學期作業&lt;/p&gt;
+&lt;p&gt;2.領完後進到自己作業的資料內name(site-學號),setting內的Branches更改為分支(gh-page)&lt;/p&gt;
+&lt;p&gt;3.接著到與上星期雷同,git clone https://github.com/mdecadp2018/site-scrum-2到自己的usb&lt;/p&gt;
+&lt;p&gt;4.git clone https://github.com/mdecadp2018/site-40623217到自己的usb&lt;/p&gt;
+&lt;p&gt;5.複製site-scrum-2的資料到自己的site-40623217(除了.git  readme.md不取代)&lt;/p&gt;
+&lt;p&gt;6.到自己的動態https:localhost:8443內更改內容,login(admin)&lt;/p&gt;
+&lt;p&gt;7.開始每周維護自己的網站內容&lt;/p&gt;
+&lt;p&gt;8.更改完後,用generate_pages, 將動態分頁轉換為靜態分頁&lt;/p&gt;
+&lt;p&gt;9.完成後再到https:localhost:8444檢查是否轉換&lt;/p&gt;
+&lt;p&gt;10.回到黑框內打上git add .     git status     git commit -m      git push等指令上傳到遠端&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第一周</title><link href="./2018-Fall-Project-Blog-w1.html" rel="alternate"></link><published>2018-10-07T20:00:00+08:00</published><updated>2018-10-07T20:00:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-07:./2018-Fall-Project-Blog-w1.html</id><summary type="html">&lt;p&gt;學習自己建立github主頁&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;學習自己建立github主頁&lt;/p&gt;
+
+
+&lt;h2&gt;操作內容&lt;/h2&gt;
+&lt;p&gt;1.先登入自己github帳號,新增資料(學號.github.io)&lt;/p&gt;
+&lt;p&gt;2.到圖片上的網站,git clone資料到自己的usb&lt;/p&gt;
+&lt;p&gt;3.到自己新增的資料網站,git clone到自己的usb&lt;/p&gt;
+&lt;p&gt;4.再將mdecourse/2018fall資料夾內的檔案複製到自己的資料夾(除了.git  readme不取代)&lt;/p&gt;
+&lt;p&gt;5.複製完後在自己的資料夾內輸入python wsgi.py&lt;/p&gt;
+&lt;p&gt;6.接著到瀏覽器上輸入https:localhost:8443,進去後先login (admin)&lt;/p&gt;
+&lt;p&gt;7.打入學號到標題內&lt;/p&gt;
+&lt;p&gt;8.大致上處理好後利用generate_pages進行動態分頁轉至靜態分頁&lt;/p&gt;
+&lt;p&gt;9.開啟自己的Scite的白框,開啟http-server.py&lt;/p&gt;
+&lt;p&gt;10.再到瀏覽器上打入https:localhost:8444&lt;/p&gt;
+&lt;p&gt;11.確認無誤回到黑框打入git add .  git commit -m   git push 等指令上傳至遠端&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="./2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:None,2018-09-10:./2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 
