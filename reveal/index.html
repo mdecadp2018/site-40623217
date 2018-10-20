@@ -39,32 +39,22 @@
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## 2018Fall scrum2 網際簡報
+## mdepcad 2b 40623217 投影片
 
 ### 虎科大機械設計工程系
 
 <small>
-Created by [KMOLab](http://lab.kmol.info/)
+Created by mdepcad 2b 40623217
 </small>
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[40623217倉儲](https://github.com/mdecadp2018/site-40623217)
 
+[40623217網站](./../content/index.html)
 
-    </script>
-</section>
+[40623217網誌](./../blog/index.html)
 
+[40623217投影片](./../reveal/index.html)
 
-						
-<section data-markdown>
-    <script type="text/template">
-# 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
     </script>
 </section>
@@ -75,83 +65,120 @@ Created by [KMOLab](http://lab.kmol.info/)
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+## week1
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+* 學習如何建立自己的github資料庫
+* 回顧之前學過的git 指令
 
-$$I = \int \rho R^{2} dV$$
     </script>
 </section>
 
 
 
 						
+</section>
+
+<section>
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+## week2
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+* 領取個人學期作業
+* 設定資料庫分支
+* 了解近端動靜態形式
+* 開始維護網誌 投影片 網站
+
     </script>
 </section>
 
 
 
 						
+</section>
+
+<section>
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+<!-- 請注意, @others 不可以內縮 -->
+## week3
 
-### 導入影片 template
+* 中秋節放假 停課一日
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </script>
 </section>
+
 
 
 						
 </section>
 
+<section>
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+<!-- 請注意, @others 不可以內縮 -->
+## week4
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* 介紹Onshape功能
+* 練習每周Onshape作業
+
+心得
+
+這套軟體相當方便,基本結合許多類似Solidwork或Inventor這類的3D軟體功能,主要是方便性很高,活性大,在暫時的作圖這方面相當輕鬆.
+    </script>
+</section>
+
+
+
+						
+</section>
+
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## week5
+
+* 維護個人的網站 網誌 投影片
+* 介紹連桿運作軟體
+* 如何應用eric6開啟軟體及程式碼
+* 解決pelican.leo內部slug衝突
+
+心得
+
+這周開始需要做很多關於python之類的事情,相當煩躁,因為必須得去了解Onshape內的指令使用,為何可以使用這套軟體,還得隨時維護網誌及網站的內容設定,前後加下來事情也越來越多,變得很累.
 
     </script>
 </section>
 
 
+
 						
+</section>
+
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## week6
+
+* 檢查每周是否更新自己的網誌 網站 投影片
+* 倉儲是否定時更新
+* leo內的程式碼key word的作用
+* 網站中edit內的程式碼key word作用
+
+心得
+
+今天隨機抽人檢查每周的更新狀態,還好我有每周定時更新自己的狀態,還好自己每周的累積,才能讓自己可以輕鬆些,不然可能隨時都會開天窗.
+
+    </script>
+</section>
+
+
+
+						
+</section>
+
 </div>
 
 </div>
