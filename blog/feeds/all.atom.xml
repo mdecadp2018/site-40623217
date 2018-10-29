@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623217/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623217/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623217/blog/</id><updated>2018-10-22T11:20:00+08:00</updated><entry><title>第七周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w7.html" rel="alternate"></link><published>2018-10-22T11:20:00+08:00</published><updated>2018-10-22T11:20:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623217/blog/2018-Fall-Project-Blog-w7.html</id><summary type="html">&lt;p&gt;github與fossil scm遠端管理&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2018-10-22T11:20:00+08:00</updated><entry><title>第七周</title><link href="./2018-Fall-Project-Blog-w7.html" rel="alternate"></link><published>2018-10-22T11:20:00+08:00</published><updated>2018-10-22T11:20:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-22:./2018-Fall-Project-Blog-w7.html</id><summary type="html">&lt;p&gt;github與fossil scm遠端管理&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;github與fossil scm遠端管理&lt;/p&gt;
 
 
-&lt;hr&gt;</content><category term="2018Fall"></category></entry><entry><title>第六周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w6.html" rel="alternate"></link><published>2018-10-21T01:30:00+08:00</published><updated>2018-10-21T01:30:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-21:/site-40623217/blog/2018-Fall-Project-Blog-w6.html</id><summary type="html">&lt;p&gt;補Onshape作業&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;github遠端故障&lt;/p&gt;
+&lt;p&gt;原因: 具體來講是因為網路故障且儲存的倉儲位置也連帶故障,導致多數人進行遠端傳送,有些許的障礙出現,但近端扔有更動.&lt;/p&gt;
+&lt;p&gt;解決: 因為避免相同的衝突再次發生,所以有了因應的措施,必須先想出可應對的方法&lt;/p&gt;
+&lt;p&gt;例如: 可以使用gitlab , bitbucket , fossil scm 這些額外可作為github遠端以外的連結.&lt;/p&gt;
+&lt;p&gt;連結如下:&lt;/p&gt;
+&lt;p&gt;https://about.gitlab.com/pricing/&lt;/p&gt;
+&lt;p&gt;https://bitbucket.org/product/pricing&lt;/p&gt;
+&lt;p&gt;心得:&lt;/p&gt;
+&lt;p&gt;這周的github上傳頻頻出錯,這讓我感到錯愕,假設我只會使用github一個遠端倉儲,而不會去連上其他倉儲的話,那很有可能會導致自己的資料無法定時更新,必須要用上述所說的遠端系統才可能做有效的應對措施,但這也必須得花時間去了解這些東西本身的性質,說不定需要那些設定或是要求才能使用,這又是一段必須花費的時間.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第六周</title><link href="./2018-Fall-Project-Blog-w6.html" rel="alternate"></link><published>2018-10-21T01:30:00+08:00</published><updated>2018-10-21T01:30:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-21:./2018-Fall-Project-Blog-w6.html</id><summary type="html">&lt;p&gt;補Onshape作業&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;補Onshape作業&lt;/p&gt;
 
 
@@ -18,7 +27,10 @@
 
 &lt;iframe width="945" height="507" src="https://www.youtube.com/embed/pUuJbsnGAvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;iframe width="945" height="507" src="https://www.youtube.com/embed/ZtkguZCZdIU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="2018Fall"></category></entry><entry><title>第五周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w5.html" rel="alternate"></link><published>2018-10-14T18:00:00+08:00</published><updated>2018-10-14T18:00:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-14:/site-40623217/blog/2018-Fall-Project-Blog-w5.html</id><summary type="html">&lt;p&gt;Onshape  pelican網誌  eric6&lt;/p&gt;
+&lt;iframe width="945" height="507" src="https://www.youtube.com/embed/ZtkguZCZdIU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;心得: &lt;/p&gt;
+&lt;p&gt;這幾周下來,OnShape大多的指令使用過後,其實跟Solidworks Inventor的感覺是差不多的,只是有些指令讓我意外,他在許多地方雖然跟上述兩者很多共通點,可是在於便利性或是畫出較簡單的圖來說OnShape要比起另外兩個必須去下載的應用程式來講,要更加輕鬆使用,所以如果是短程畫圖下又沒有以上的應用程式,那OnShape是個不錯的選擇.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第五周</title><link href="./2018-Fall-Project-Blog-w5.html" rel="alternate"></link><published>2018-10-14T18:00:00+08:00</published><updated>2018-10-14T18:00:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-14:./2018-Fall-Project-Blog-w5.html</id><summary type="html">&lt;p&gt;Onshape  pelican網誌  eric6&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Onshape  pelican網誌  eric6&lt;/p&gt;
 
 
@@ -27,7 +39,9 @@
 &lt;p&gt;1.維護網誌必須切記 pelican.leo 內建立每周內容必須注意 slug 的名稱不得與其他周的 slug 一樣,否則系統無法得知是要使用哪個 slug 的內容&lt;/p&gt;
 &lt;p&gt;2.若是更改時,不符合自己預期狀態,可到黑框內打入 pelican markdown -o blog -s local_publishconf.py 這串可得知當下 leo 內的狀態&lt;/p&gt;
 &lt;p&gt;3.接著到 mde.tw 內的 18cadp 的裡面的可攜工具載下 p37.adv 及 Qt 可攜系統&lt;/p&gt;
-&lt;p&gt;4.接著可以在 eric6 內開啟 pyqt5 的連桿運作程式&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第四周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w4.html" rel="alternate"></link><published>2018-10-07T21:00:00+08:00</published><updated>2018-10-07T21:00:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-07:/site-40623217/blog/2018-Fall-Project-Blog-w4.html</id><summary type="html">&lt;p&gt;介紹OnShape功能&lt;/p&gt;
+&lt;p&gt;4.接著可以在 eric6 內開啟 pyqt5 的連桿運作程式&lt;/p&gt;
+&lt;p&gt;心得:&lt;/p&gt;
+&lt;p&gt;這周開始要求各位必須尋找後面九周專題的組員,要開始使用類似eric6去啟動所要執行的應用程式,回想起曾經使用pyqt5時的的想法,不管事過去還是跟現在,感同身受的覺得,接下來有很多事情得花時間來處理.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第四周</title><link href="./2018-Fall-Project-Blog-w4.html" rel="alternate"></link><published>2018-10-07T21:00:00+08:00</published><updated>2018-10-07T21:00:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-07:./2018-Fall-Project-Blog-w4.html</id><summary type="html">&lt;p&gt;介紹OnShape功能&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;介紹OnShape功能&lt;/p&gt;
 
 
@@ -49,7 +63,10 @@
 
 &lt;iframe width="945" height="507" src="https://www.youtube.com/embed/4SJKHizWzBM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;iframe width="945" height="507" src="https://www.youtube.com/embed/jp7rHYKj0BE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="2018Fall"></category></entry><entry><title>第二周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w2.html" rel="alternate"></link><published>2018-10-07T20:30:00+08:00</published><updated>2018-10-07T20:30:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-07:/site-40623217/blog/2018-Fall-Project-Blog-w2.html</id><summary type="html">&lt;p&gt;領取本學期個人作業&lt;/p&gt;
+&lt;iframe width="945" height="507" src="https://www.youtube.com/embed/jp7rHYKj0BE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;心得:&lt;/p&gt;
+&lt;p&gt;這周開始正式進入OnShape遠端繪圖軟體的部分,這東西很明顯的就是能在無正式繪圖軟體時可使用的簡便工具,這套遠端軟體用起來像一般的繪圖軟體,例如:Solidworks Inventor那類的畫圖軟體來說,所以整體下來基本功能差不多又只是畫簡易的繪圖,那麼這會是個相較容易軟體能供大眾使用.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第二周</title><link href="./2018-Fall-Project-Blog-w2.html" rel="alternate"></link><published>2018-10-07T20:30:00+08:00</published><updated>2018-10-07T20:30:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-07:./2018-Fall-Project-Blog-w2.html</id><summary type="html">&lt;p&gt;領取本學期個人作業&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;領取本學期個人作業&lt;/p&gt;
 
 
@@ -63,7 +80,7 @@
 &lt;p&gt;7.開始每周維護自己的網站內容&lt;/p&gt;
 &lt;p&gt;8.更改完後,用generate_pages, 將動態分頁轉換為靜態分頁&lt;/p&gt;
 &lt;p&gt;9.完成後再到https:localhost:8444檢查是否轉換&lt;/p&gt;
-&lt;p&gt;10.回到黑框內打上git add .     git status     git commit -m      git push等指令上傳到遠端&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第一周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w1.html" rel="alternate"></link><published>2018-10-07T20:00:00+08:00</published><updated>2018-10-07T20:00:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-07:/site-40623217/blog/2018-Fall-Project-Blog-w1.html</id><summary type="html">&lt;p&gt;學習自己建立github主頁&lt;/p&gt;
+&lt;p&gt;10.回到黑框內打上git add .     git status     git commit -m      git push等指令上傳到遠端&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第一周</title><link href="./2018-Fall-Project-Blog-w1.html" rel="alternate"></link><published>2018-10-07T20:00:00+08:00</published><updated>2018-10-07T20:00:00+08:00</updated><author><name>40623217</name></author><id>tag:None,2018-10-07:./2018-Fall-Project-Blog-w1.html</id><summary type="html">&lt;p&gt;學習自己建立github主頁&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;學習自己建立github主頁&lt;/p&gt;
 
 
@@ -78,7 +95,7 @@
 &lt;p&gt;8.大致上處理好後利用generate_pages進行動態分頁轉至靜態分頁&lt;/p&gt;
 &lt;p&gt;9.開啟自己的Scite的白框,開啟http-server.py&lt;/p&gt;
 &lt;p&gt;10.再到瀏覽器上打入https:localhost:8444&lt;/p&gt;
-&lt;p&gt;11.確認無誤回到黑框打入git add .  git commit -m   git push 等指令上傳至遠端&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40623217/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+&lt;p&gt;11.確認無誤回到黑框打入git add .  git commit -m   git push 等指令上傳至遠端&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="./2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:None,2018-09-10:./2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 
