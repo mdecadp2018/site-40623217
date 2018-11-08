@@ -5,18 +5,21 @@
 
 &lt;hr&gt;
 &lt;p&gt;這周開始準備專題準備,目前必須以6人為一組的方式分組,再決定期末專題的題目,同時也需要去了解大致上可能會使用的軟體&lt;/p&gt;
-&lt;p&gt;目前可能在地10周開始使用的軟體可能有:&lt;/p&gt;
+&lt;p&gt;目前可能在第10周開始使用的軟體可能有:&lt;/p&gt;
 &lt;p&gt;https://github.com/mdecourse/cadp2018/issues/12&lt;/p&gt;
-&lt;p&gt;Onshape 零組件設計繪製與組立
-將零組件轉至 V-rep 進行運動模擬
-利用 Pyquino 與 V-rep 3D 列印機連線, 透過 https://github.com/slic3r/Slic3r 驅動 V-rep 3D 列印模型機, 進行列印模擬.&lt;/p&gt;
-&lt;p&gt;Onshape 零組件如何轉入 V-rep?零組件轉入 V-rep 後, 如何以程式驅動, Python or Lua?Pyquino 如何與 V-rep 機電模型連接運用?STL 模型格式?
-Parasolid 模型格式?
-ACIS 模型格式?
-STEP 模型格式?
-G-code?
-TinkerCAD?
-3D printing?&lt;/p&gt;
+&lt;p&gt;Onshape 零組件設計繪製與組立&lt;/p&gt;
+&lt;p&gt;將零組件轉至 V-rep 進行運動模擬&lt;/p&gt;
+&lt;p&gt;利用 Pyquino 與 V-rep 3D 列印機連線, 透過 https://github.com/slic3r/Slic3r 驅動 V-rep 3D 列印模型機, 進行列印模擬.&lt;/p&gt;
+&lt;p&gt;Onshape 零組件如何轉入 V-rep?
+零組件轉入 V-rep 後, 如何以程式驅動, Python or Lua?&lt;/p&gt;
+&lt;p&gt;Pyquino 如何與 V-rep 機電模型連接運用?&lt;/p&gt;
+&lt;p&gt;STL 模型格式?&lt;/p&gt;
+&lt;p&gt;Parasolid 模型格式?&lt;/p&gt;
+&lt;p&gt;ACIS 模型格式?&lt;/p&gt;
+&lt;p&gt;STEP 模型格式?&lt;/p&gt;
+&lt;p&gt;G-code?&lt;/p&gt;
+&lt;p&gt;TinkerCAD?&lt;/p&gt;
+&lt;p&gt;3D printing?&lt;/p&gt;
 &lt;p&gt;心得&lt;/p&gt;
 &lt;p&gt;這周開始尋找組員,逐漸邁入協同工作,接下的時間不再只是自己的,需要每周的不斷更新,且問題必須迅速處理,必須每個人都知道自己當下所該做的事情,若有人一旦拖了時間,整組的效率會大大的掉落,且累積越多,必須補救的東西也會越多.&lt;/p&gt;
 &lt;p&gt;今日事今日畢,今日未完明日後悔&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第九周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w9.html" rel="alternate"></link><published>2018-11-08T21:30:00+08:00</published><updated>2018-11-08T21:30:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-11-08:/site-40623217/blog/2018-Fall-Project-Blog-w9.html</id><summary type="html">&lt;p&gt;期中考周 分組專題&lt;/p&gt;
@@ -26,7 +29,7 @@ TinkerCAD?
 &lt;hr&gt;
 &lt;p&gt;期末自評: 75&lt;/p&gt;
 &lt;p&gt;心得:&lt;/p&gt;
-&lt;p&gt;這幾個星期下來,大多課程都是講重點的部分,多餘的時間留給學生自學,雖然很容易會讓自己無聊想睡,但以這學期跟去年的學期比較,今年這學期的方式感覺要自由奔放的多,每個人可以從個別老師所給的內容,來決定自己想要學習的東西是甚麼,也讓我知道Onshape這件軟體能短暫且輕便的繪圖跟組合,還有在遠端github如果出現故障,那還能用甚麼方式來補救,這些方式又有哪些方便與不方便,整體來說這樣的上課方式我覺得很不錯,讓自己決定想學甚麼,-而不是很死板的只能學那麼幾樣東西;接下來第十周開始分組分工,分配該要的每個位置上所需要的人物.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第七周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w7.html" rel="alternate"></link><published>2018-10-22T11:20:00+08:00</published><updated>2018-10-22T11:20:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623217/blog/2018-Fall-Project-Blog-w7.html</id><summary type="html">&lt;p&gt;github與fossil scm遠端管理&lt;/p&gt;
+&lt;p&gt;這幾個星期下來,大多課程都是講重點的部分,多餘的時間留給學生自學,但以這學期跟去年的學期比較,今年這學期的方式感覺要自由奔放的多,每個人可以從老師所給的內容,來決定自己想要學習的東西是甚麼,也讓我知道Onshape這件軟體能短暫且輕便的繪圖跟組合,還有在遠端github如果出現故障,那還能用甚麼方式來補救,這些方式又有哪些方便與不方便,整體來說這樣的上課方式我覺得很不錯,讓自己決定想學甚麼.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>第七周</title><link href="https://mdecadp2018.github.io/site-40623217/blog/2018-Fall-Project-Blog-w7.html" rel="alternate"></link><published>2018-10-22T11:20:00+08:00</published><updated>2018-10-22T11:20:00+08:00</updated><author><name>40623217</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623217/blog/2018-Fall-Project-Blog-w7.html</id><summary type="html">&lt;p&gt;github與fossil scm遠端管理&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;github與fossil scm遠端管理&lt;/p&gt;
 
 
