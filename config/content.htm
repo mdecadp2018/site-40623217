@@ -1,4 +1,12 @@
-<h1>簡介</h1><p>welcome to my website.</p><p>We must have self-learning in this semester.</p><p>Just do it if I want.</p><p>warehousing:&nbsp;<a href="https://github.com/mdecadp2018/site-40623217">https://github.com/mdecadp2018/site-40623217</a></p><p>website:&nbsp;<a href="https://mdecadp2018.github.io/site-40623217/content/index.html">https://mdecadp2018.github.io/site-40623217/content/index.html</a></p><p>blog:&nbsp;<a href="https://mdecadp2018.github.io/site-40623217/blog/index.html">https://mdecadp2018.github.io/site-40623217/blog/index.html</a></p><p>reveal:&nbsp;<a href="https://mdecadp2018.github.io/site-40623217/reveal/index.html#/">https://mdecadp2018.github.io/site-40623217/reveal/index.html#/</a></p><p><img src="/images/21.png" width="500" height="281" alt=""></p><h2>CMSimfly 網站</h2>
+<h1>簡介</h1>
+<p>welcome to my website.</p>
+<p>We must have self-learning in this semester.</p>
+<p>Just do it if I want.</p>
+<p>warehousing:&nbsp;<a href="https://github.com/mdecadp2018/site-40623217">https://github.com/mdecadp2018/site-40623217</a></p>
+<p>website:&nbsp;<a href="https://mdecadp2018.github.io/site-40623217/content/index.html">https://mdecadp2018.github.io/site-40623217/content/index.html</a></p>
+<p>blog:&nbsp;<a href="https://mdecadp2018.github.io/site-40623217/blog/index.html">https://mdecadp2018.github.io/site-40623217/blog/index.html</a></p>
+<p>reveal:&nbsp;<a href="https://mdecadp2018.github.io/site-40623217/reveal/index.html#/">https://mdecadp2018.github.io/site-40623217/reveal/index.html#/</a></p>
+<p><img src="/images/21.png" width="500" height="281" alt=""></p><h2>CMSimfly 網站</h2>
 <p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p>
 <p></p>
 <h2>reveal 投影片</h2>
@@ -71,7 +79,20 @@
 <p><iframe width="500" height="280" src="//www.youtube.com/embed/jp7rHYKj0BE?t=1s" allowfullscreen="allowfullscreen"></iframe></p>
 <p>心得:</p>
 <p>這周開始正式進入OnShape遠端繪圖軟體的部分,這東西很明顯的就是能在無正式繪圖軟體時可使用的簡便工具,這套遠端軟體用起來像一般的繪圖軟體,例如:Solidworks Inventor那類的畫圖軟體來說,所以整體下來基本功能差不多又只是畫簡易的繪圖,那麼這會是個相較容易軟體能供大眾使用.</p>
-<h3>Assessment1</h3>
+<h3>Learning important point1</h3>
+<h4>開始學習 Onshape</h4>
+<p>Onshape 是一套純雲端 MCAD (Mechanical Computer Aided Design) 套件, 可以利用電腦中的瀏覽器, 手機或平板中的 App, 就可以執行 2D/3D 零組件設計繪圖.</p>
+<p>有關 Onshape 如何建立零組件, 請參考:</p>
+<p><a href="https://www.onshape.com/cad-blog/under-the-hood-how-does-onshape-really-work">https://www.onshape.com/cad-blog/under-the-hood-how-does-onshape-really-work</a>&nbsp;</p>
+<h4>Onshape 是一套雲端應用程式</h4>
+<p>雲端應用的特性是: 用多少運算資源, 才開啟多少運算資源, 可最佳化且不至超載.</p>
+<p>Onshape is like any other large-scale modern cloud application &ndash; a collection of servers and services. They can run on machines optimized for their purposes; and the number of instances can be optimized so that they are always busy, but not overloaded, to make efficient use of resources.</p>
+<h4>認證伺服器</h4>
+<p>Some servers that handle things (such as user authentication and authorization, and finding and listing documents) process lots of requests, but do not do much &ldquo;real work&rdquo; themselves. They forward complex requests to other servers. Others know what is &ldquo;inside&rdquo; a document, and keep modeling sessions in memory, resulting in long-lasting sessions for modeling with documents.</p>
+<h4>幾何運算伺服器</h4>
+<p>Onshape 的幾何模擬核心採用 Parasolid</p>
+<p>Onshape 採用 D-Cubed 解繪圖過程中的幾何約束條件</p>
+<p>Others, the admittedly unimaginatively named &ldquo;geometry servers,&rdquo; do all the math &ndash; these are optimized for computation power. These servers are the ones that reconstruct geometry from feature lists and FeatureScript, solve for instance positions in assemblies, and compute graphical tessellations. They make use of the venerable geometric modeling kernel Parasolid and constraint solver D-Cubed &ndash; both well-tested by many years of use in many CAD systems &ndash; which we license from Siemens PLM.</p><h3>Assessment1</h3>
 <p>Q1:What&rsquo;s the quickest way to learn more about each feature in the toolbar?</p>
 <p>(用什麼方法能最快的了解在工具欄上的每個特徵?)</p>
 <p>A1:Hover the mouse over it for a second, and a description of the feature will pop up.</p>
@@ -102,8 +123,7 @@
 <p>Q5:Can a document in Onshape have multiple Part Studios?&nbsp;</p>
 <p>(一項文件在Onshape上可以開啟多個畫室嗎?)</p>
 <p>A5:Yes</p>
-<p></p>
-<h2>Week5</h2>
+<p></p><h2>Week5</h2>
 <p>課程內容</p>
 <p>維護網誌必須切記 pelican.leo 內建立每周內容必須注意 slug 的名稱不得與其他周的 slug 一樣,否則系統無法得知是要使用哪個 slug 的內容</p>
 <p><img src="/images/14.png" width="529" height="97" alt=""></p>
@@ -117,7 +137,25 @@
 <p><img src="/images/19.png" width="525" height="458" alt=""></p>
 <p>心得:</p>
 <p>這周開始要求各位必須尋找後面九周專題的組員,要開始使用類似eric6去啟動所要執行的應用程式,回想起曾經使用pyqt5時的的想法,不管事過去還是跟現在,感同身受的覺得,接下來有很多事情得花時間來處理.</p>
-<h3>Assessment2</h3>
+<h3>Learning important point2</h3>
+<ol>
+<li><span>簡介"設計意圖" (design intent)</span></li>
+<li><span>設定尺寸 (dimensions) 與約束 (constraints)</span></li>
+<li><span>自動推理 (automatic inferencing)</span></li>
+<li><span>繪製精確的零件 (accurate part)</span></li>
+<li><span>草圖繪製練習</span></li>
+<li><span>運用與建立平面 (planes)</span></li>
+<li><span>建立圓角 (fillets) 與倒角 (chamfers)</span></li>
+<li><span>使用多個 (multiple) 草圖區域 (sketch regions)</span></li>
+<li><span>基本零件</span></li>
+<li><span>繪製時鐘模型 - 用於設計意圖教學</span></li>
+<li><span>各種簡單的幾何形狀 (geometric shapes)&nbsp;</span></li>
+</ol>
+<p>Design Intent is the practice of developing your project&rsquo;s objectives and requirements even before working on your design.</p>
+<p>設計意圖指在設計進行前, 必須完成之專案目的與需求確認</p>
+<p>The more complex the geometry, the more we need to think about how we want to design the parts before just going ahead and making it.</p>
+<p>幾何外型越複雜, 越需要在零件設計之前做好設計意圖的確認</p>
+<p>Design intent goes hand-in-hand with Dimensions and Constraints. Dimensions refer to the distance and angle values of sketch entities. Constraints refer to the geometric relationships and rules within a sketch.</p><h3>Assessment2</h3>
 <p>Q1:Describe in your own words, what is design intent?&nbsp;</p>
 <p>(以你的話描述什麼是設計意圖?)</p>
 <p>A1:Design Intent is the practice of developing your project&rsquo;s objectives and&nbsp; requirements even before working on your design.</p>
@@ -142,8 +180,7 @@
 <p>(圓角和去角相似在哪? 還有差異在哪?)</p>
 <p>A5:They are the same in that both features are applied to edges only, they are different in that a fillet creates a round profile, and a chamfer creates a flat profile.</p>
 <p>(<span>它們的相同之處在於兩個特徵僅應用於邊緣，它們的不同之處在於圓角創建圓形輪廓，倒角創建平坦輪廓。</span>)</p>
-<p></p>
-<h2>Week6</h2>
+<p></p><h2>Week6</h2>
 <p>作業網誌連結</p>
 <p>http://mde.tw/cadp2018/content/OnshapeWeek%205.html</p>
 <p></p>
@@ -155,7 +192,56 @@
 <p><iframe width="500" height="280" src="//www.youtube.com/embed/ZtkguZCZdIU?t=97s" allowfullscreen="allowfullscreen"></iframe></p>
 <p>心得:&nbsp;</p>
 <p>這幾周下來,OnShape大多的指令使用過後,其實跟Solidworks Inventor的感覺是差不多的,只是有些指令讓我意外,他在許多地方雖然跟上述兩者很多共通點,可是在於便利性或是畫出較簡單的圖來說OnShape要比起另外兩個必須去下載的應用程式來講,要更加輕鬆使用,所以如果是短程畫圖下又沒有以上的應用程式,那OnShape是個不錯的選擇.</p>
-<h2>Week7</h2>
+<h3>Learning important point3</h3>
+<ol>
+<li><span>Using&nbsp;<a href="https://cad.onshape.com/help/Content/booleanparts.htm">Boolean operations</a></span></li>
+<li><span>Applying linear and circular patterning&nbsp;</span></li>
+<li><span>Applying mirror tool</span></li>
+<li><span>Assemblies in Onshape</span></li>
+<li><span>An introduction to concurrent top-down and bottom-up designs&nbsp;</span></li>
+<li><span>Creating a Multi-Part design in a Part Studio</span></li>
+</ol>
+<h4><span>Multi-Part Modeling</span></h4>
+<p><span>Unlike other CAD systems, you may make as many parts in a single Part Studio as you want. This technique is called Multi-Part Modeling and it&rsquo;s very powerful because, as we&rsquo;ve seen, you can make parts that highly depend on one another.&nbsp;</span></p>
+<h4><span>Buttom-Up Design</span></h4>
+<p><span>Bottom-Up Design is when a product is designed by creating sketches, then features, then parts (often one per Part Studio), and then assemblies. In this approach, the geometry is created starting with the lower level entities (like 2D lines and circles) up the hierarchy to the highest level assembly (such as the final product being built).</span></p>
+<h4><span>Top-Down Design</span></h4>
+<p><span>Top-Down Design is when the shape of an overall product is sketched first, and then different regions of that sketch are used to create the lower level parts and their features. Top-Down is a more intuitive way to approach a design because typically we, as designers, envision the final product first, then as time goes on, we refine the concept into finer and finer detail.</span></p>
+<h3>Assessment3</h3>
+<p>Q1: What are the 3 types of Boolean Operations and how do they work? Feel free to draw pictures if they help.</p>
+<p>(這三種boolean數學運算有哪些還有如何運作?如果它們有幫助，隨意畫幾張圖。)</p>
+<p>A1:</p>
+<p>Add/Union - A single Part is created from multiple, overlapping &ldquo;Tools&rdquo;</p>
+<p>(接合 - 是一種由多個或是重疊將"零件合併"。)</p>
+<p>Subtract - &ldquo;Tools&rdquo; are used to remove material from &ldquo;Targets&rdquo;</p>
+<p>(切割 - 此工具用於在某個"目標"上的材料做移除。)</p>
+<p>Intersect - The overlapped volumes are created by multiple, overlapping &ldquo;Tools&rdquo;</p>
+<p>(相交 - <span>在多個或交叉點存在的地方保留材料。</span>)</p>
+<p></p>
+<p>Q2: What is the main difference between a Linear and a Circular Part pattern?</p>
+<p>(線性陣列和環狀陣列兩項主要差異在哪?)</p>
+<p>A2:&nbsp;A Linear pattern creates parts along a straight linear reference, a circular pattern creates parts around an axis reference.</p>
+<p>(線性陣列是由一直線參考線繪製出來，環狀陣列是由一參考軸繪製出來)</p>
+<p></p>
+<p>Q3: When might you use a Part Pattern versus a Feature Pattern?</p>
+<p>(何時你可以使用零件圖案與特徵圖案?)</p>
+<p>A3:&nbsp;A Part Pattern patterns an individual part while a Feature Pattern patterns a specific<br>feature (or features) listed in the Feature Tree, such as extrude, fillet, sweep, and sketch.&nbsp;</p>
+<p>(<span>零件圖案對單個零件進行圖案化，而特徵圖案對特徵樹中列出的特定特徵（或多個特徵）進行圖案化，例如拉伸、圓角、掃掠和草圖。</span>)</p>
+<p></p>
+<p>Q4: Describe in your own words what &ldquo;Top-Down Design&rdquo; means.&nbsp;</p>
+<p>(用你的話描述什麼是"上 - 下設計"的意思。)</p>
+<p>A4:&nbsp;Top-Down Design is when the shape of an overall product is sketched first, and then<br>different regions of that sketch are used to create the lower level parts and their features.</p>
+<p>(<span>由上而下設計是指首先繪製整個產品的形狀，然後使用該草圖的不同區域來創建較低級別的部件及其特徵&nbsp;。</span>)</p>
+<p></p>
+<p>Q5: Why is it smart to put fillets and chamfers at the end of the feature list?</p>
+<p>(<span>為什麼在特徵列表的末尾放置圓角和倒角是明智作法?</span>)</p>
+<p>A5:&nbsp;Because they are not critical features, and having them too early in the model, could<br>result in accidentally referencing them while creating critical geometry.</p>
+<p>(因為它們不是關鍵特徵，<span>如果在模型中過早使用它們，可能在創建關鍵幾何體時意外地引用到它們。</span>)</p>
+<p></p>
+<p>Q6:&nbsp;How is the mirror tool being utilized in the creation of our Clamp design?</p>
+<p>(<span>如何在創建夾具設計時運用鏡像工具?&nbsp;</span>)</p>
+<p>A6:&nbsp;We are using it to save time by only modeling half of our pins and hinges, and then<br>mirroring them over the symmetry plane.</p>
+<p>(<span>&nbsp;我們可以對一半的銷及其他零件進行建模，然後在對稱平面上鏡像它們來節省時間。</span>)</p><h2>Week7</h2>
 <p>github遠端故障</p>
 <p></p>
 <p>原因: 具體來講是因為網路故障且儲存的倉儲位置也連帶故障,導致多數人進行遠端傳送,有些許的障礙出現,但近端扔有更動.</p>
@@ -167,7 +253,54 @@
 <p></p>
 <p>心得:</p>
 <p>這周的github上傳頻頻出錯,這讓我感到錯愕,假設我只會使用github一個遠端倉儲,而不會去連上其他倉儲的話,那很有可能會導致自己的資料無法定時更新,必須要用上述所說的遠端系統才可能做有效的應對措施,但這也必須得花時間去了解這些東西本身的性質,說不定需要那些設定或是要求才能使用,這又是一段必須花費的時間.</p>
-<h2>Week8</h2>
+<h3>Learning important point4</h3>
+<ol>
+<li><span>Lesson on degrees of freedom</span></li>
+<li><span>An introduction to assembly Mates</span></li>
+<li><span>Mate Connectors</span></li>
+<li><span>Manipulating part position with the triad</span></li>
+<li><span>Explaining Mates and Relations</span></li>
+<li><span>Animating Mates</span></li>
+<li><span>An introduction to Linked Documents</span></li>
+<li><span>Applying limits to a Mate</span></li>
+</ol>
+<h4><span>Assembly and Mate Connector</span></h4>
+<p><span>For designing and manufacturing an assembly, it is important to know which parts go into the assembly, how many of each, how they are assembled, and how they should perform.&nbsp;</span></p>
+<p><span>A Mate in Onshape fully describes how two parts will interact with each other by specifically controlling each degree of freedom through the use of things called Mate Connectors. You can think of a Mate Connector as a small, local coordinate system (an x, y, and z axis) for a joint between two parts. The Red line is the X-axis, the Green is the Y, and the Blue is the Z.</span></p>
+<h4><span>&nbsp;Animations</span></h4>
+<p><span>Animations are a great way to view the motion of your Mate before accepting it. Onshape will automatically move the Mate in a way that will exercise the Degrees of Freedom. In a Revolute Mate the part will rotate, in a Slider Mate, the part will slide, in a Cylinder Mate, the part will slide and rotate, etc.</span></p>
+<h4><span>Relations and Limits</span></h4>
+<p><span>A relation is a way in Onshape to constrain degrees of freedom between two Mates. Where a Mate controls how many degrees of freedom a pair of parts has between them, a Relation can control how those degrees of freedom move with respect to each other. There are 4 types of Relations in Onshape: Gear, Rack and Pinion, Screw, and Linear. These relations rely on preexisting Mates to define the type of motion that will occur between two parts.</span></p>
+<h3>Assessment4</h3>
+<p>Q1: What is the difference between a fixed and a moveable assembly in Onshape?&nbsp;</p>
+<p>(在<span>Onshape 中固定組件和可移動組件之間有什麼區別</span>)</p>
+<p>A1:&nbsp;A Fixed assembly is created using the Top-Down Design method in a Part Studio and is static, while a Moveable assembly is built in an Assembly tab using Mates and can be<br>used to visualize motion.</p>
+<p>(<span>固定裝配使用零件中的自頂向下設計方法創建，並且是靜態的，而可移動裝配合使用在裝配選項卡中構建，可用於可視化運動。</span>)</p>
+<p></p>
+<p>Q2:&nbsp;What is so unique about the Mate Connector in Onshape?&nbsp;</p>
+<p>(<span>Onshape中的配合連接器有什麼獨特之處?</span>)</p>
+<p>A2:&nbsp;It is a single feature which allows for the full definition of all 6 degrees of freedom. It is the bases for how mates are defined.</p>
+<p>(<span>它是一個單一的功能，可以完全定義6個自由度。 它是如何定義配合的基礎。</span>)</p>
+<p></p>
+<p>Q3: How many degrees of freedom do the following Mates have?</p>
+<p>(<span>多少自由度執行以下配合?</span>)</p>
+<p>A3:</p>
+<p>a. Fastened - 0 (&nbsp;固定 - 0 )</p>
+<p>b. Revolute - 1 (&nbsp;迴轉 - 1 )</p>
+<p>c. Slider - 1 (&nbsp;滑塊 - 1 )</p>
+<p>d. Planar - 3 ( 平面 - 3 )</p>
+<p>e. Cylindrical - 2 (&nbsp;圓柱形 - 2 )</p>
+<p>f. Ball - 3 (&nbsp;球 - 3 )</p>
+<p></p>
+<p>Q4:&nbsp;When a mate is initially defined, does Onshape solve the entire model, or just that mate?&nbsp;</p>
+<p>(<span>當最初定義配合時，Onshape 會整個模型一起定義，還是只有那個配合?</span>)</p>
+<p>A4:&nbsp;Just that mate.</p>
+<p>(<span>只有那個配合。</span>)</p>
+<p></p>
+<p>Q5:&nbsp;What is a Relation? Provide 2 examples.&nbsp;</p>
+<p>(是什麼關<span>係? 舉兩個例子。</span>)</p>
+<p>A5:&nbsp;It allows degrees of freedom to be defined between two existing mates. Examples are Gear, Rack &amp; Pinion, Screw, and Linear.</p>
+<p>(<span>允許在兩個現有配合之間定義自由度&nbsp;。例如齒輪和齒輪或齒條，螺釘和線性&nbsp;。</span>)</p><h2>Week8</h2>
 <p>期末分組專題</p>
 <p>這周開始準備專題準備,目前必須以6人為一組的方式分組,再決定期末專題的題目,同時也需要去了解大致上可能會使用的軟體</p>
 <p>目前可能在第10周開始使用的軟體可能有:</p>
@@ -177,7 +310,7 @@
 <p><span>心得</span></p>
 <p>這周開始尋找組員,逐漸邁入協同工作,接下的時間不再只是自己的,需要每周的不斷更新,且問題必須迅速處理,必須每個人都知道自己當下所該做的事情,若有人一旦拖了時間,整組的效率會大大的掉落,且累積越多,必須補救的東西也會越多.</p>
 <p>今日事今日畢,今日未完明日後悔</p>
-<h2>Week9</h2>
+<h3>Learning important point5</h3><ol><li><span>An introduction to engineering drawings</span></li><li><span>Creating drawing views, dimensioning, tolerancing, notes</span></li><li><span>Using formats/templates</span></li><li><span>Introducing GTOL/GD&amp;T</span></li></ol><h3>Assessment5</h3><p>Q1:&nbsp;Which four views are included in the &ldquo;Four View Layout&rdquo; in Onshape?</p><p>(<span>在Onshape的 &ldquo; 四視圖佈局 &rdquo; 中包含哪四個視圖</span>)</p><p>A1:&nbsp;Front, Top, Right, Isometric</p><p>(前視圖，上視圖，右視圖，等角圖)</p><p></p><p>Q2:&nbsp;What is the difference between a Dimension and a tolerance?&nbsp;</p><p>(<span>尺寸和公差有什麼區別&nbsp;?</span>)</p><p>A2:&nbsp;The dimension is the nominal (&ldquo;perfect&rdquo;) measurement of our geometry, whereas the tolerance is the acceptable variation of our geometry allowed during manufacturing.</p><p>(<span>尺寸是我們幾何形狀的標稱（&ldquo;完美&rdquo;）測量值，而公差是製造過程中允許的幾何形狀的可接受變化。</span>)</p><p>Q3:&nbsp;Name &amp; Describe the following Dimension/Tolerance types:</p><p>(<span>描述以下尺寸/公差類型</span>)</p><p>A3:&nbsp;</p><p>a. Deviation - This communicates the allowable +/- deviation from the nominal dimension.</p><p>(偏差 - <span>允許 + / - 偏離標稱尺寸。</span>)</p><p>b. Limits - This communicates the allowable limits of the dimension (the nominal is not shown).</p><p>(限制 - <span>尺寸的允許限制</span><span>( 標稱未顯示&nbsp;)。</span>)</p><p>c. Basic - This has no tolerance, and therefore may only be used when GD&amp;T is utilized to define the tolerance range.</p><p>(基本 - <span>沒有公差，因此只能在使用 GD＆T 時來定義公差範圍。</span>)</p><p></p><p>Q4:&nbsp;What is the real-world implication of changing a standard dimension on an engineering print from &ldquo;1.750&rdquo; to &ldquo;1.75&rdquo;?&nbsp;</p><p>(<span>將工程印刷品的標準尺寸從 &ldquo; 1.750 &rdquo; 改為 &ldquo; 1.75 &rdquo; 的現實含義是什麼?</span>)</p><p>A4: It means that we are changing the tolerance to a &ldquo;looser&rdquo; one (wider allowable range) as defined by the tolerance block in the drawing format.&nbsp;</p><p>(<span>將容差改為 &ldquo; 寬鬆 &rdquo;（ 更寬的允許範圍 ）由圖形格式的公差塊定義。</span>)</p><p></p><p>Q5:&nbsp;Do Onshape drawing views update automatically? Why or why not?&nbsp;</p><p>(<span>Onshape 繪圖視圖是否會自動更新嗎?</span>)</p><p>A5:&nbsp;No they do not, as this gives the designer control whether they want the drawing to<br>reflect the latest design or not. It is a form of revision control, since Onshape does not<br>have (or need) a formal PDM system.</p><p>(不，並不會。<span>設計師控制他們是否想要繪圖反映最新的設計與否。這是一種修訂控制形式，因為Onshape沒有擁有（或需要）正式的PDM系統</span>)</p><p></p><h2>Week9</h2>
 <p>期中考周</p>
 <p>期末分組專題</p>
 <p>期末自評: 75</p>
