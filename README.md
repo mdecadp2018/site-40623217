@@ -1,13 +1,13 @@
-# 2018fall
+# 2019 Spring 協同產品設計實習
 
-期末專題分組倉儲: https://github.com/mdecadp2018/finalproject-bg5
+team warehousing: https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g5
 
-期末專題分組網站: https://mdecadp2018.github.io/finalproject-bg5
+team website: https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/index.html
 
-倉儲: https://github.com/mdecadp2018/site-40623217
+warehousing: https://github.com/40623217/Collaborative-Product-Design-Practice
 
-網站: https://mdecadp2018.github.io/site-40623217/content/index.html
+website: https://40623217.github.io/Collaborative-Product-Design-Practice/content/index.html
 
-網誌: https://mdecadp2018.github.io/site-40623217/blog/index.html
+reveal: https://40623217.github.io/Collaborative-Product-Design-Practice/reveal/index.html#/
 
-投影片: https://mdecadp2018.github.io/site-40623217/reveal/index.html#/
+blog: https://40623217.github.io/Collaborative-Product-Design-Practice/blog/index.html

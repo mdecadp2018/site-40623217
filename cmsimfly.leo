@@ -9,15 +9,15 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160714225308.1"><vh>@settings</vh>
+<v t="amd.20160714225308.1" a="E"><vh>@settings</vh>
 <v t="amd.20160714225308.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20160714225308.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180702145534.1"><vh>wsgi start/stop</vh>
+<v t="leo.20180702145534.1" a="E"><vh>wsgi start/stop</vh>
 <v t="leo.20180702142719.1"><vh>@button start wsgi</vh></v>
 <v t="leo.20180702142849.1"><vh>@button stop wsgi</vh></v>
 </v>
-<v t="leo.20180702145555.1"><vh>http start/stop</vh>
+<v t="leo.20180702145555.1" a="E"><vh>http start/stop</vh>
 <v t="leo.20180702145442.1"><vh>@button start http.server</vh></v>
 <v t="leo.20180702145458.1"><vh>@button stop http.server</vh></v>
 </v>
@@ -25,7 +25,7 @@
 <v t="amd.20160714225245.2" a="E"><vh>about cmsimfly</vh>
 <v t="amd.20160714230137.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20160714230155.1"><vh>@edit LICENSE</vh></v>
-<v t="amd.20160715000709.1"><vh>註解</vh>
+<v t="amd.20160715000709.1" a="E"><vh>註解</vh>
 <v t="amd.20160715211540.1"><vh>處理 url 與 edit</vh></v>
 <v t="amd.20160715213810.1"><vh>必須處理 downloads 與 images 目錄</vh></v>
 <v t="leo.20180625155103.1" a="E"><vh>改為 pybean based</vh>
@@ -36,7 +36,7 @@
 <v t="leo.20180712144340.1"><vh>改回手動轉靜態網頁</vh></v>
 </v>
 </v>
-<v t="leo.20180701102916.1"><vh>2018Summer 改版</vh>
+<v t="leo.20180701102916.1" a="E"><vh>2018Summer 改版</vh>
 <v t="leo.20180702104314.1"><vh>整合設定檔案</vh></v>
 <v t="leo.20180701205822.1"><vh>editorhead 修改</vh></v>
 <v t="leo.20180701212101.1"><vh>有關 Cango library</vh></v>
@@ -53,14 +53,14 @@
 <v t="leo.20180625155248.1"><vh>@edit pybean.py</vh></v>
 <v t="leo.20180625155728.1"><vh>@edit schema.sql</vh></v>
 <v t="amd.20160718130611.1"><vh>@edit .gitignore</vh></v>
-<v t="amd.20160717222221.1"><vh>@path static</vh>
+<v t="amd.20160717222221.1" a="E"><vh>@path static</vh>
 <v t="leo.20180718091411.1"><vh>@edit cmsimply.css</vh></v>
 <v t="amd.20160717222242.1"><vh>@edit axuploader.js</vh></v>
 <v t="amd.20160718125932.1"><vh>@edit viewstl.html</vh></v>
 <v t="amd.20160718125943.1"><vh>@edit stlviewer.js</vh></v>
 <v t="amd.20160718212341.1"><vh>@edit jsc3d.js</vh></v>
 </v>
-<v t="amd.20160714230058.1"><vh>@clean wsgi.py</vh>
+<v t="amd.20160714230058.1" a="E"><vh>@clean wsgi.py</vh>
 <v t="amd.20160714230122.1"><vh>wsgi declarations</vh></v>
 </v>
 <v t="amd.20160714230833.1" a="E"><vh>編輯 flaskapp.py</vh>
@@ -839,7 +839,7 @@ def set_admin_css():
     outstring = '''&lt;!doctype html&gt;
 &lt;html&gt;&lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;title&gt;2018 Fall 分組網站&lt;/title&gt; \
+&lt;title&gt;2019 Spring 40623217 Introduction-to-Collaborative-Product-Design-Practice&lt;/title&gt; \
 &lt;link rel="stylesheet" type="text/css" href="/static/cmsimply.css"&gt;
 ''' + syntaxhighlight()
 
@@ -1062,7 +1062,7 @@ a.xhfbfile:hover{
     outstring = '''&lt;!doctype html&gt;
 &lt;html&gt;&lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;title&gt;2018 Fall 分組網站&lt;/title&gt; \
+&lt;title&gt;2019 Spring 40623217 Introduction-to-Collaborative-Product-Design-Practice&lt;/title&gt; \
 &lt;link rel="stylesheet" type="text/css" href="/static/cmsimply.css"&gt;
 ''' + syntaxhighlight()
 
@@ -2407,7 +2407,7 @@ def get_page2(heading, head, edit):
     outstring = '''&lt;!doctype html&gt;
 &lt;html&gt;&lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;title&gt;2018 Fall 分組網站&lt;/title&gt; \
+&lt;title&gt;2019 Spring 40623217 Introduction-to-Collaborative-Product-Design-Practice&lt;/title&gt; \
 &lt;link rel="stylesheet" type="text/css" href="./../static/cmsimply.css"&gt;
 ''' + syntaxhighlight2()
 
