@@ -126,20 +126,20 @@ $(function(){
 <p>human and human</p>
 <p><iframe width="600" height="336" src="https://www.youtube.com/embed/Y7pgjwSjug4" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
 <p>process explanation</p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-1.png" width="600" height="710" alt=""></p>
+<p><img src="./../images/process explanation human-1.png" width="600" height="710" alt=""></p>
 <p>以上圖解釋:</p>
 <p>velocity = 0 是要求 init 要輸入速度的這個條件給系統。</p>
 <p>sliding_b = 0 也跟上方的velocity = 0 概念是一樣的要輸入給系統。</p>
 <p>sim.getOjectHandle ('&nbsp; ') 是指處理物件的相關。</p>
 <p>sim.setJointTargetPosition(&nbsp; ,&nbsp; )&nbsp; 是指設定軸的目標位置(上方處理完的物件&nbsp; ,&nbsp; 給予速度或是其他的條件 )。</p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-2.png" width="600" height="710" alt=""></p>
+<p><img src="./../images/process explanation human-2.png" width="600" height="710" alt=""></p>
 <p>上圖所示:</p>
 <p>message,auxiliaryData=sim.getSimulatorMessage() 是指訊息 , 輔助參數或是數據 = 模擬得到模擬器訊息。</p>
 <p>while message ~= -1 do&nbsp; 是指當訊息為非 -1 得做以下的。</p>
 <p>key=auxiliaryData[1] 是指 key = 輔助數據陣列 [1]，<br>sim.addStatusbarMessage('key:'..key) 是指模擬時新增狀態訊息為 key在下方狀態顯示。</p>
 <p>velocity = 速度大小 ( 負號單純是指方向 )。</p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-3.png" width="600" height="710" alt=""></p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-4.png" width="600" height="297" alt=""></p>
+<p><img src="./../images/process explanation human-3.png" width="600" height="710" alt=""></p>
+<p><img src="./../images/process explanation human-4.png" width="600" height="297" alt=""></p>
 <p>以上方兩圖所示:</p>
 <p>if (auxiliaryData[1]==97) then<br>-- left key<br>&nbsp; &nbsp; if (sliding_b &gt;= 0.2) then<span>&nbsp;</span><br>&nbsp; &nbsp; else sliding_b = sliding_b + 0.05<br>sim.addStatusbarMessage('sliding_b:'..sliding_b)<br>&nbsp; &nbsp; end<br>end</p>
 <p>if (假設輔助數據等於按鍵 = true時) then (接著)</p>
@@ -154,13 +154,13 @@ $(function(){
 <p>human and computer</p>
 <p><iframe width="600" height="336" src="https://www.youtube.com/embed/SmzVGYIxK1g" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
 <p>process explanation</p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human%20to%20computer-1.png" width="600" height="739" alt=""></p>
+<p><img src="./../images/process explanation human to computer-1.png" width="600" height="739" alt=""></p>
 <p>上圖所示:</p>
 <p>velocity = 0 是要求 init 要輸入速度的這個條件給系統。</p>
 <p>sliding_b = 0 也跟上方的velocity = 0 概念是一樣的要輸入給系統。</p>
 <p>sim.getOjectHandle ('&nbsp; ') 是指處理物件的相關。</p>
 <p>sim.setJointTargetPosition(&nbsp; ,&nbsp; )&nbsp; 是指設定軸的目標位置(上方處理完的物件&nbsp; ,&nbsp; 給予速度或是其他的條件 )。</p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human%20to%20computer-2.png" width="600" height="739" alt=""></p>
+<p><img src="./../images/process explanation human to computer-2.png" width="600" height="739" alt=""></p>
 <p>上圖所示:</p>
 <p>message,auxiliaryData=sim.getSimulatorMessage() 是指&nbsp; 訊息 , 輔助參數或是數據 = 模擬得到模擬器訊息。</p>
 <p>while message ~= -1 do&nbsp; 是指當訊息為非 -1 得做以下的。</p>
@@ -174,7 +174,7 @@ $(function(){
 <p>模擬新增狀態訊息sliding_b的狀態在下方訊息欄呈現。</p>
 <p>&nbsp; &nbsp; end(結束此迴圈) ]</p>
 <p>end(結束回圈)。</p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human%20to%20computer-3.png" width="600" height="739" alt=""></p>
+<p><img src="./../images/process explanation human to computer-3.png" width="600" height="739" alt=""></p>
 <p>上圖所示:</p>
 <p>message,auxiliaryData=sim.getSimulatorMessage() 是指從上方的這行指令到下方這行指令之間的所有程式皆啟用&nbsp; 訊息 , 輔助數據 = 模擬時得到模擬器的訊息。</p>
 <p>position_PR=sim.getObjectPosition(right_pole_r1,-1)<br>position_S=sim.getObjectPosition(Sphere_handle,-1)<br>X = position_S[1] - position_PR[1]<br>Y = position_S[2] - position_PR[2]<span>&nbsp;</span><br>if 1 then<br>&nbsp; &nbsp; if X &lt;= -0.05 then --goalkeeper<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r1,-5)<br>&nbsp; &nbsp; elseif X &gt; -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r1,5)<br>&nbsp; &nbsp; end<br>&nbsp; &nbsp; Y = Y*5<br>&nbsp; &nbsp; sim.setJointTargetVelocity(right_slider_r1,Y)<br>end</p>
@@ -191,8 +191,8 @@ $(function(){
 <p>&nbsp; &nbsp; Y = 上方 Y軸的位置差&nbsp; *&nbsp; 上5倍</p>
 <p>&nbsp; &nbsp; 模擬設定軸的目標速度 (處理後的物件 , 為上方 Y 的追蹤速度)</p>
 <p>end (結束迴圈)。</p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human%20to%20computer-4.png" width="600" height="739" alt=""></p>
-<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human%20to%20computer-5.png" width="600" height="344" alt=""></p>
+<p><img src="./../images/process explanation human to computer-4.png" width="600" height="739" alt=""></p>
+<p><img src="./../images/process explanation human to computer-5.png" width="600" height="344" alt=""></p>
 <p>以上方兩張圖所示:</p>
 <p>position_PR=sim.getObjectPosition(right_pole_r2,-1)<br>position_S=sim.getObjectPosition(Sphere_handle,-1)<br>X = position_S[1] - position_PR[1]<br>Y = position_S[2] - position_PR[2] + 0.1<br>Y2 = position_S[2] - position_PR[2] - 0.1<br>if X &gt;= -1 then --goalkeeper<br>&nbsp; &nbsp;if position_S[2] &lt;= 0.1 then<br>&nbsp; &nbsp; &nbsp; &nbsp; if X &lt;= -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,-5)<br>&nbsp; &nbsp; &nbsp; &nbsp; elseif X &gt; -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,5)<br>&nbsp; &nbsp; &nbsp; &nbsp; end<br>&nbsp; &nbsp; &nbsp; &nbsp; Y = Y*5<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_slider_r2,Y)<br>&nbsp; &nbsp; elseif position_S[2] &gt; 0.1 then<br>&nbsp; &nbsp; &nbsp; &nbsp; if X &lt;= -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,-5)<br>&nbsp; &nbsp; &nbsp; &nbsp; elseif X &gt; -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,5)<br>&nbsp; &nbsp; &nbsp; &nbsp; end<br>&nbsp; &nbsp; &nbsp; &nbsp; Y2 = Y2*5<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_slider_r2,Y2)<br>&nbsp; &nbsp; end<br>end</p>
 <p>桿子位置 = 模擬得到物件位置(處理的物件 , -1啟動)。</p>
@@ -220,5 +220,59 @@ $(function(){
 <p>&nbsp; &nbsp; end (結束此迴圈) }</p>
 <p>end(結束迴圈)。</p>
 <p>--------------------------</p>
+<p>computer and computer</p>
+<p><iframe width="600" height="336" src="https://www.youtube.com/embed/QDQnJRHG0R0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p>process explanation</p>
+<p><img src="./../images/process explanation computer to computer-1.png" width="600" height="712" alt=""></p>
+<p><img src="./../images/process explanation computer to computer-2.png" width="600" height="712" alt=""></p>
+<p><img src="./../images/process explanation computer to computer-3.png" width="600" height="712" alt=""></p>
+<p><img src="./../images/process explanation computer to computer-4.png" width="600" height="712" alt=""></p>
+<p><img src="./../images/process explanation computer to computer-5.png" width="600" height="712" alt=""></p>
+<p><img src="./../images/process explanation computer to computer-6.png" width="600" height="250" alt=""></p>
+<p>以上方所有圖示:</p>
+<p>sim.getOjectHandle ('&nbsp; ') 是指處理物件的相關。</p>
+<p>下方程式為 goal keeper 的部分</p>
+<p>position_PR=sim.getObjectPosition(right_pole_r1,-1)<br>position_S=sim.getObjectPosition(Sphere_handle,-1)<br>X = position_S[1] - position_PR[1]<br>Y = position_S[2] - position_PR[2]<span>&nbsp;</span><br>if 1 then<br>&nbsp; &nbsp; if X &lt;= -0.05 then --goalkeeper<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r1,-5)<br>&nbsp; &nbsp; elseif X &gt; -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r1,5)<br>&nbsp; &nbsp; end<br>&nbsp; &nbsp; Y = Y*5<br>&nbsp; &nbsp; sim.setJointTargetVelocity(right_slider_r1,Y)<br>end</p>
+<p>桿子位置 = 模擬得到物件位置(處理的物件 , -1啟動)。</p>
+<p>球的位置 = 模擬得到物件位置(處理的物件 , -1啟動)。</p>
+<p>X = 球的位置 - 桿件的位置 (在X軸上)。</p>
+<p>Y = 球的位置 - 桿件的位置 (在Y軸上)。</p>
+<p>if (假設 1 = true) then (接著)</p>
+<p>&nbsp; &nbsp;[ if (假設X &lt;= -0.05) 接著</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 模擬設定軸的目標速度 ( 處理後的物件 , 速度大小(負號是指方向))</p>
+<p>&nbsp; &nbsp; elseif (額外假設 X &gt; -0.05) 接著</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 模擬設定軸的目標速度 (處理後的物件 , 速度大小)</p>
+<p>&nbsp; &nbsp; end (結束此迴圈) ]</p>
+<p>&nbsp; &nbsp; Y = 上方 Y軸的位置差&nbsp; *&nbsp; 上5倍</p>
+<p>&nbsp; &nbsp; 模擬設定軸的目標速度 (處理後的物件 , 為上方 Y 的追蹤速度)</p>
+<p>end (結束迴圈)。</p>
+<p></p>
+<p>下方程式包刮 (guard midfield forward)的部分&nbsp;</p>
+<p>position_PR=sim.getObjectPosition(right_pole_r2,-1)<br>position_S=sim.getObjectPosition(Sphere_handle,-1)<br>X = position_S[1] - position_PR[1]<br>Y = position_S[2] - position_PR[2] + 0.1<br>Y2 = position_S[2] - position_PR[2] - 0.1<br>if X &gt;= -1 then --goalkeeper<br>&nbsp; &nbsp;if position_S[2] &lt;= 0.1 then<br>&nbsp; &nbsp; &nbsp; &nbsp; if X &lt;= -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,-5)<br>&nbsp; &nbsp; &nbsp; &nbsp; elseif X &gt; -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,5)<br>&nbsp; &nbsp; &nbsp; &nbsp; end<br>&nbsp; &nbsp; &nbsp; &nbsp; Y = Y*5<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_slider_r2,Y)<br>&nbsp; &nbsp; elseif position_S[2] &gt; 0.1 then<br>&nbsp; &nbsp; &nbsp; &nbsp; if X &lt;= -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,-5)<br>&nbsp; &nbsp; &nbsp; &nbsp; elseif X &gt; -0.05 then<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_joint_r2,5)<br>&nbsp; &nbsp; &nbsp; &nbsp; end<br>&nbsp; &nbsp; &nbsp; &nbsp; Y2 = Y2*5<br>&nbsp; &nbsp; &nbsp; &nbsp; sim.setJointTargetVelocity(right_slider_r2,Y2)<br>&nbsp; &nbsp; end<br>end</p>
+<p>桿子位置 = 模擬得到物件位置(處理的物件 , -1啟動)。</p>
+<p>球的位置 = 模擬得到物件位置(處理的物件 , -1啟動)。</p>
+<p>X = 球的位置 - 桿件的位置 (在X軸上)。</p>
+<p>Y = 球的位置 - 桿件的位置再+ 0.1(在Y軸上)。</p>
+<p>Y2= 球的位置 - 桿件的位置再 - 0.1(在Y軸上)。</p>
+<p>if (假設X&gt;= -1&nbsp; = true ) then (接著)</p>
+<p>&nbsp; &nbsp;{ if (假設球在Y軸時 &lt;= 0.1 = true) then (接著)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;[ if (假設X &lt;= -0.05時 = true) then (接著)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 模擬設定軸的目標速度(處理後的物件 , 速度大小(負號為方向))</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; elseif (額外假設X&gt; -0.05時 = true ) then (接著)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 模擬設定軸的目標速度(處理後的物件 , 速度大小)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; end (結束此迴圈<span>) ]</span></p>
+<p><span>&nbsp; &nbsp; &nbsp; &nbsp; Y = 上方Y在Y軸的位置差*5倍</span></p>
+<p><span>&nbsp; &nbsp; &nbsp; &nbsp; 模擬設定的目標速度(處理後的物件 , Y的追蹤速度大小)</span></p>
+<p><span>&nbsp; &nbsp; elseif (額外假設求在Y軸上 &gt; 0.1) then (接著)</span></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;[ if (假設X &lt;= -0.05時 = true) then (接著)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 模擬設定軸的目標速度(處理後的物件 , 速度大小(負號為方向))</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; elseif (額外假設X&gt; -0.05時 = true ) then (接著)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 模擬設定軸的目標速度(處理後的物件 , 速度大小)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; end (結束此迴圈<span>) ]</span></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; Y2 = 上方Y2 在Y軸位置差* 5倍</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 模擬設定軸的目標速度(處理後的物間 , 上方 Y2 追蹤的速度大小)</p>
+<p>&nbsp; &nbsp; end (結束此迴圈) }</p>
+<p>end(結束迴圈)。</p>
+<p>守門員的程式與其他人的程式相差是在於，我設定的X軸跟Y軸的位置差所針對的部分是球的型心與桿子的型心所做的位置差，所以為了避免有空踢的可能性，所以必須在後衛、中場、前鋒上給予在Y軸上的彌補，其用意除了在空踢以外，還要避免當球員道極 限位置時要求另一個球員要去踢球，所以在第一大迴圈中給的X要&gt;= -1是要求球員要在X軸為 1 的範圍內可以判定球的X軸在哪，第二個迴圈中，用球的Y軸 &lt;=0.1時，要求Y的設定之人偶去追蹤球，額外的假設是當球的Y軸&gt;0.1時，要求Y2的設定之人偶去追蹤球，第三迴圈，相對簡單，先告訴它假設 X &lt; -0.05 時，要求欲踢狀態，額外假設X&gt;-0.05 時，要求踢擊狀態，這是三層迴圈的內部定義。</p>
 <p>----------------------------------------------------------------------------</p>
 <p>Week17</p><br />Week1 to Week10 << <a href='Week1 to Week10.html'>Previous</a> <a href='Experience.html'>Next</a> >> Experience</section></div></body></html>
