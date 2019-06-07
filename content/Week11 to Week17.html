@@ -122,9 +122,34 @@ $(function(){
 <p><img src="./../images/w14 process explanation-3.png" width="300" height="433" alt=""></p>
 <p>上圖為這些桿件跟圖檔簡化後圖元連結的詳細結構狀態，這次在&nbsp; slider&nbsp; 放入桿子&nbsp; pole&nbsp; 為實際模擬真實的手足球檯的控制桿可以平移連動，再給予 people 到 pole 的連接下方。</p>
 <p>---------------------------------------------------------------------------</p>
-<p>Week15</p>
-<p>---------------------------------------------------------------------------</p>
-<p>Week16</p>
+<p>Week15 to Week16</p>
+<p>human and human</p>
+<p><iframe width="600" height="336" src="https://www.youtube.com/embed/Y7pgjwSjug4" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p>process explanation</p>
+<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-1.png" width="600" height="710" alt=""></p>
+<p>以上圖解釋:</p>
+<p>velocity = 0 是要求 init 要輸入速度的這個條件給系統。</p>
+<p>sliding_b = 0 也跟上方的velocity = 0 概念是一樣的要輸入給系統。</p>
+<p>sim.getOjectHandle ('&nbsp; ') 是指處理物件的相關。</p>
+<p>sim.setJointTargetPosition(&nbsp; ,&nbsp; )&nbsp; 是指設定軸的目標位置(上方處理完的物件&nbsp; ,&nbsp; 給予速度或是其他的條件 )。</p>
+<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-2.png" width="600" height="710" alt=""></p>
+<p>上圖所示:</p>
+<p>message,auxiliaryData=sim.getSimulatorMessage() 是指訊息 , 輔助參數或是數據 = 模擬得到模擬器訊息。</p>
+<p>while message ~= -1 do&nbsp; 是指當訊息為非 -1 得做以下的。</p>
+<p>key=auxiliaryData[1] 是指 key = 輔助數據陣列 [1]，<br>sim.addStatusbarMessage('key:'..key) 是指模擬時新增狀態訊息為 key在下方狀態顯示。</p>
+<p>velocity = 速度大小 ( 負號單純是指方向 )。</p>
+<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-3.png" width="600" height="710" alt=""></p>
+<p><img src="https://40623217.github.io/Collaborative-Product-Design-Practice./../images/process%20explanation%20human-4.png" width="600" height="297" alt=""></p>
+<p>以上方兩圖所示:</p>
+<p>if (auxiliaryData[1]==97) then<br>-- left key<br>&nbsp; &nbsp; if (sliding_b &gt;= 0.2) then<span>&nbsp;</span><br>&nbsp; &nbsp; else sliding_b = sliding_b + 0.05<br>sim.addStatusbarMessage('sliding_b:'..sliding_b)<br>&nbsp; &nbsp; end<br>end</p>
+<p>if (假設輔助數據等於按鍵 = true時) then (接著)</p>
+<p>&nbsp; &nbsp;[ if (假設sliding_b &gt;= 0.2 =true時) then (接著)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; [執行某事要求]</p>
+<p>&nbsp; &nbsp; else (如果上方假設 = false ，要求 slideing_b = sliding_b +0.05平移位移)</p>
+<p>模擬新增狀態訊息sliding_b的狀態在下方訊息欄呈現。</p>
+<p>&nbsp; &nbsp; end(結束此迴圈) ]</p>
+<p>end(結束回圈)。</p>
+<p>message,auxiliaryData=sim.getSimulatorMessage() 是指從上方的這行指令到下方這行指令之間的所有程式皆啟用&nbsp; 訊息 , 輔助數據 = 模擬時得到模擬器的訊息。</p>
+<p>----------------------------</p>
 <p>----------------------------------------------------------------------------</p>
-<p>Week17</p>
-<br />Week1 to Week10 << <a href='Week1 to Week10.html'>Previous</a> <a href='Experience.html'>Next</a> >> Experience</section></div></body></html>
+<p>Week17</p><br />Week1 to Week10 << <a href='Week1 to Week10.html'>Previous</a> <a href='Experience.html'>Next</a> >> Experience</section></div></body></html>
